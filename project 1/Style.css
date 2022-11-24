@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*style*/
+
+
+body{
+    background-image: url(email-pattern.png);
+}
+
+.container{
+    width: 1000px;
+    background-color: rgb(255, 250, 250);
+    margin: auto;
+    box-sizing: border-box;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+}
+nav{
+    padding-left: 20px;
+    font-size: 16px;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: salmon;
+    text-decoration: none;
+    text-align: center;
+    transition: 1s;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color: rgb(255, 255, 251);
+    font-size: 18px;
+}
+.hero{
+    height: 400px;
+    background-image: url(Komputer\ 2.jpg);
+    /*yang belum paham*/
+    background-size: cover;
+    /*ini yang diatas tulisan ini belum di pahami*/
+    background-position: 0 -150px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid rgb(141, 238, 255);
+}
+main{
+    padding-left: 20px;
+    width: 450px;
+    float: left;
+}
+.Judul{
+    margin-bottom: 15px;
+}
+.Judul h3{
+    font-size: 20px;
+    font-weight: bold ;
+    margin-bottom: 3px;
+    color: #333;
+}
+.Judul p{
+    font-size: 13px;
+}
+.Judul p a{
+    text-decoration: none;
+    color: salmon;
+}
+.Judul p a:hover{
+    text-decoration: underline;
+}
+.content p{
+    font-size: 16px;
+}
+
+aside{
+    width: 460px;
+    float: right;
+}
+.Tentang h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside img{
+    float: left;
+    margin-right: 10px;
+}
+.Referensi{
+    margin-top: 50px;
+}
+.Referensi p{
+    font-size: 20px;
+}
+.Referensi ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Referensi ul li a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+}
+.Referensi ul li a:hover{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(128, 128, 128);
+    padding: 20px;
+    color: #fdfdfd;
+}
+
+
+
+/*clearfix*/
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
+
