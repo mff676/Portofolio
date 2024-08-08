@@ -116,7 +116,7 @@ header {
   display: flex;
   padding: 40px 100px;
   position: fixed;
-  /* top: 0; */
+   top: 0; 
   /* left: 0; */
   width: 100%;
   z-index: 5;
