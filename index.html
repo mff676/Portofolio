@@ -1,132 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="#">MFF<span>Project</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">MFF<span>Project</span></a>
+    </div>
+    <!-- <div class="menuToggle" onclick="menuToggle();"></div> -->
+    <nav>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <!-- <div class="menuToggle" onclick="menuToggle();"></div> -->
-      <nav>
-        <ul class="nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#project">Projects</a></li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
-    <main>
-      <article id="home">
-        <div class="container-home">
-          <h2 class="title-home">
-            Welcome, I am <br />
-            Falah
-          </h2>
-          <p class="text-home">Student | Artist</p>
-        </div>
+  <main>
+    <article id="home">
+      <div class="container-home">
+        <h2 class="title-home">
+          Welcome, I am <br />
+          Falah
+        </h2>
+        <p class="text-home">Student | Artist</p>
+      </div>
 
-        <div class="btn-more"><a href="#about">See More</a></div>
-      </article>
+      <div class="btn-more"><a href="#about">See More</a></div>
+    </article>
 
-      <!-- About -->
-      <aside id="about">
-        <div class="col-50-about">
-          <h2 class="title-about"><span>A</span>bout</h2>
-          <div class="text-about">
-            <p>
-              Hello! I am Muhammad Fathul, a Web Developer currently studying IT. I'm looking for a project or Internship where I can contribute from experience. I'm constantly developing my website
-              development, and app building skills
-            </p>
-          </div>
-        </div>
-
-        <div class="col-50-about">
-          <div class="img-about">
-            <img src="assets/foto profil.jpg" alt="gambar rusak" />
-          </div>
-        </div>
-      </aside>
-      <!-- Akhir about -->
-
-      <!-- article testimonial -->
-      <article id="project">
-        <div class="header-project">
-          <h2>My <span>P</span>roject</h2>
-          <p>this is a project i've done</p>
-        </div>
-        <div class="content-project">
-          <div class="box-project">
-            <img src="assets/Tampilan UI.png" alt="Gambar rusak" />
-            <h6 class="title-project">App Design</h6>
-            <p class="project">This is my application design that I named Notesave application that can save your important notes and can manage your time with To do List feature.</p>
-            <a class="button" href="https://www.figma.com/file/e9mEp8hcYUrZE1uWTch5pF/Notepad?node-id=0%3A1" target="_blank">Click To See More</a>
-          </div>
-          <div class="box-project">
-            <img src="assets/Project 2.png" alt="Gambar rusak" />
-            <h6 class="title-project">Portofolio</h6>
-            <p class="project">
-              This is my first Website that I learned from Unpas youtube web programming, the channel is very useful for me, which channel introduced me to programming for the first time
-            </p>
-            <a class="button" href="https://falah676.github.io/FathulFalah.github.io/Bootstrap/index.html" target="_blank">Click To See More</a>
-          </div>
-          <div class="box-project">
-            <img src="assets/Project 3.png" alt="Gambar rusak" />
-            <h6 class="title-project">My Excercise</h6>
-            <p class="project">This is my practice project to making layout in html using with float</p>
-            <a class="button" href="project 1/index.html" target="_blank">Click To See More</a>
-          </div>
-          <div class="box-project">
-            <img src="assets/Banner Play  Store.png" alt="Gambar rusak" />
-            <h6 class="title-project">Notepad application</h6>
-            <p class="project">This is my first project using Kotlin that was successfully uploaded to the Google Play Store</p>
-            <a class="button" href="https://play.google.com/store/apps/details?id=com.FathStudio.notesave" target="_blank">Click To See More</a>
-          </div>
-          <div class="box-project">
-            <img src="assets/Frame 6.png" alt="Gambar rusak" />
-            <h6 class="title-project">Al-Quran Application</h6>
-            <p class="project">This is my second application project which is currently under review by google play store</p>
-            <a class="button" href="error.html" target="_blank">Click To See More</a>
-          </div>
-        </div>
-      </article>
-    </main>
-
-    <!--  Footer -->
-
-    <footer id="footer">
-      <div class="footer-content">
-        <div class="footer-social">
-          <a href="https://www.instagram.com/mff_676/?hl=id" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.facebook.com/muhammad.falah.3998" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://github.com/falah676  " target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
-
-        <div class="copyright">
-          <p>MFF | &copy;2022</p>
+    <!-- About -->
+    <aside id="about">
+      <div class="col-50-about">
+        <h2 class="title-about"><span>A</span>bout</h2>
+        <div class="text-about">
+          <p>
+            Hello! I am Muhammad Fathul, a Web Developer currently studying IT. I'm looking for a project or Internship
+            where I can contribute from experience. I'm constantly developing my website
+            development, and app building skills
+          </p>
         </div>
       </div>
-    </footer>
-    <!-- Akhir Footer -->
-    <script src="main.js"></script>
-  </body>
+
+      <div class="col-50-about">
+        <div class="img-about">
+          <img src="assets/foto profil.jpg" alt="gambar rusak" />
+        </div>
+      </div>
+    </aside>
+    <!-- Akhir about -->
+
+    <!-- article testimonial -->
+    <article id="project">
+      <div class="header-project">
+        <h2>My <span>P</span>roject</h2>
+        <p>these are my projects that i've done</p>
+      </div>
+      <div class="content-project">
+        <div class="box-project">
+          <img src="assets/Tampilan UI.png" alt="Gambar rusak" />
+          <h6 class="title-project">App Design</h6>
+          <p class="project">This is my application design that I named Notesave application that can save your
+            important notes and can manage your time with To do List feature.</p>
+          <a class="button" href="https://www.figma.com/file/e9mEp8hcYUrZE1uWTch5pF/Notepad?node-id=0%3A1"
+            target="_blank">Click To See More</a>
+        </div>
+        <div class="box-project">
+          <img src="assets/Project 2.png" alt="Gambar rusak" />
+          <h6 class="title-project">Portofolio</h6>
+          <p class="project">
+            This is my first Website that I learned from Unpas youtube web programming, the channel is very useful for
+            me, which channel introduced me to programming for the first time
+          </p>
+          <a class="button" href="https://falah676.github.io/FathulFalah.github.io/Bootstrap/index.html"
+            target="_blank">Click To See More</a>
+        </div>
+        <div class="box-project">
+          <img src="assets/Project 3.png" alt="Gambar rusak" />
+          <h6 class="title-project">My Excercise</h6>
+          <p class="project">This is my practice project to making layout in html using with float</p>
+          <a class="button" href="project 1/index.html" target="_blank">Click To See More</a>
+        </div>
+        <div class="box-project">
+          <img src="assets/Banner Play  Store.png" alt="Gambar rusak" />
+          <h6 class="title-project">Notepad application</h6>
+          <p class="project">This is my first project using Kotlin that was successfully uploaded to the Google Play
+            Store</p>
+          <a class="button" href="https://play.google.com/store/apps/details?id=com.FathStudio.notesave"
+            target="_blank">Click To See More</a>
+        </div>
+        <div class="box-project">
+          <img src="assets/Frame 6.png" alt="Gambar rusak" />
+          <h6 class="title-project">Al-Quran Application</h6>
+          <p class="project">This is my second application project which is currently under review by google play store
+          </p>
+          <a class="button" href="error.html" target="_blank">Click To See More</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!--  Footer -->
+
+  <footer id="footer">
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/mff_676/?hl=id" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/muhammad.falah.3998" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/falah676  " target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="copyright">
+        <p>MFF | &copy;2022</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+  <script src="main.js"></script>
+</body>
+
 </html>
